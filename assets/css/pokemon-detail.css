@@ -8,9 +8,6 @@
 }
 
 
-
-
-
 .feature {
     position: relative;
     background-color: red;
@@ -60,13 +57,16 @@
     border-radius: 60px;
 }
 
-
 /* Estilização Modal de Detalhes */
-.modal-content{
+.modal-content {
     width: 100%;
     height: 100vh;
     background-color: red;
     display: flex;
+}
+
+.hidden {
+    display: none;
 }
 
 .modal {
@@ -103,7 +103,7 @@
     color: #fff;
 }
 
-.modal-body{
+.modal-body {
     width: 100%;
     height: 80%;
     padding: 0.3rem;
@@ -118,20 +118,20 @@
     border: 3px solid #000;
 }
 
-.modal-info{
+.modal-info {
     width: 100%;
     height: 40%;
     border-radius: 1.5rem;
     background-color: aqua;
 }
 
-.modal-info .name{
+.modal-info .name {
     color: #fff;
     margin-bottom: .25rem;
     text-transform: capitalize;
 }
 
-.modal-info .detail{
+.modal-info .detail {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -140,21 +140,21 @@
 
 
 
-.hr{
+.hr {
     width: 90%;
     border: 1px solid;
     color: #bcbcbc;
 }
 
-.modal-statistic{
+.modal-statistic {
     width: 100%;
     height: 55%;
-    border-radius:  1.5rem  ;
+    border-radius: 1.5rem;
     background-color: rgb(0, 255, 21);
 }
 
 
-.modal-footer{
+.modal-footer {
     width: 100%;
     height: 3rem;
     border-radius: 1.5rem;
@@ -164,7 +164,7 @@
     align-items: center;
 }
 
-.modal-footer .close{
+.modal-footer .close {
     width: 10rem;
     height: 80%;
     border-radius: 1.5rem;

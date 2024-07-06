@@ -12,7 +12,7 @@ function loadPokemonItens(offset, limit) {
         const newHtml = pokemons.map((pokemon) =>
             `<li class="pokemon ${pokemon.type}">
                 <span class="number">#${pokemon.number} </span>
-                <input type="range" value="${pokemon.hp}" maxlength="100">
+    
                 <span class="name">${pokemon.name}</span>
                 
                 <div class="detail">
