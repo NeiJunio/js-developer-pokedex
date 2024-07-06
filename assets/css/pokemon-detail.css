@@ -59,10 +59,12 @@
 
 /* Estilização Modal de Detalhes */
 .modal-content {
-    width: 100%;
-    height: 100vh;
-    background-color: red;
+position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
     display: flex;
+    z-index: 999;
+    inset: 0;
 }
 
 .hidden {
@@ -88,6 +90,10 @@
     display: flex;
     justify-content: space-between;
     /* background-color: red; */
+}
+
+.arrow-icon{
+    cursor: pointer;
 }
 
 .number-pokemon {

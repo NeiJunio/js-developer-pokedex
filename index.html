@@ -38,11 +38,11 @@
     <div class="modal-content hidden">
         <div class="modal">
             <div class="modal-header">
-                <img src="assets/icons/arrow-left.svg" alt="arrow-left">
+                <img src="assets/icons/arrow-left.svg" alt="arrow-left" class="arrow-icon" onclick="closeModal()">
                 <span class="number-pokemon" id="number-pokemon">numero</span>
                 <img src="assets/icons/heart-favorite.svg" alt="heart-favorite">
             </div>
-
+    
             <div class="modal-body">
                 <div class="modal-info">
                     <span class="name">nome</span>
@@ -53,6 +53,7 @@
                             <!-- `).join('')} -->
                         </ol>
                     </div>
+                    <img src="assets/images/pokemon-placeholder.png" alt="Imagem do Pokémon" class="pokemon-image">
                 </div>
                 <hr class="hr">
                 <div class="modal-statistic"></div>
@@ -62,6 +63,7 @@
             </div>
         </div>
     </div>
+    
 
     <!-- javascript -->
     <script src="assets/js/pokemon-model.js"></script>
