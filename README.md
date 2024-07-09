@@ -7,11 +7,8 @@
 
 <div style="display: flex; width: 100%; margin: auto;">
     <img src="https://raw.githubusercontent.com/NeiJunio/js-developer-pokedex/main/assets/images/pokedex.png" width="400px" />
-    <img src="https://raw.githubusercontent.com/NeiJunio/js-developer-pokedex/main/assets/images/pokedex-details.png" width="300px" />
+    <img src="https://raw.githubusercontent.com/NeiJunio/js-developer-pokedex/main/assets/images/pokemon-details.png" width="300px"/>
 </div>
-
-
-
 
 ## ✒️ Autor
 ### Nei Junio Nogueira Gomes

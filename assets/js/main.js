@@ -12,7 +12,6 @@ function loadPokemonItems(offset, limit) {
     pokeApi.getPokemons(offset, limit).then((newPokemons) => {
         pokemons = [...pokemons, ...newPokemons]; // Adicionar novos Pokémon ao array
 
-
         const newHtml = newPokemons.map((pokemon) => 
             `<li class="pokemon ${pokemon.type}" data-number="${pokemon.number}">
                 <span class="number">#${pokemon.number}</span>

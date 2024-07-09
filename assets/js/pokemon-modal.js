@@ -86,9 +86,11 @@ function openModal(pokemon) {
                     </div>
                 </div>
             </div>
+
             <div class="modal-footer">
                 <button class="close" onclick="closeModal()">Fechar</button>
             </div>
+            
         </div>`;
     
     modalContent.innerHTML = htmlModal;
